@@ -24,7 +24,7 @@ This is the engine room. It:
  -> Keeps you updated with your final score when you finish the quiz.
 
 ### User Interface: ui.py
-This module handles the interaction with the player:
+This module handles the interaction with the player, it requires two images for buttons, which are attached alongwith files:
 
  -> Creates a GUI with buttons and canvas for displaying questions.
 
