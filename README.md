@@ -31,3 +31,24 @@ This module handles the interaction with the player:
  -> Fetches the next question and updates the display.
   
  -> Provides feedback on whether your answers are correct or not.
+
+### Quiz Logic: quiz_brain.py
+The brain behind the operation:
+
+ -> Manages the flow of questions.
+ 
+ -> Checks if answers are correct.
+ 
+ -> Keeps track of the score and current question number.
+
+ ### Question Data: data.py
+This script pulls trivia questions from the Open Trivia Database API. Feel free to tweak the parameters to adjust the quiz settings.
+
+### Question Model: question_model.py
+Defines the Question class to create question objects.
+
+## Running the Game
+To get started, clone this repository and run main.py. Make sure you have Tkinter installed and an active internet connection to fetch the latest questions. Enjoy the quiz and may your brain cells multiply!
+
+## Contributions
+Feel free to fork this repository, make improvements, and submit a pull request. We welcome contributions that make Quizzyy even better!
